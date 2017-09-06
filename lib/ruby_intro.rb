@@ -66,8 +66,7 @@ class BookInStock
   end
   
   def price_as_string
-    price = @price.to_f
-    ("$#{'%.2f' % price}")
+    ("$#{'%.2f' % @price}")
   end
   
   def isbn
